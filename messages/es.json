@@ -1,0 +1,747 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "roadmap": "Ruta de Aprendizaje",
+    "resources": "Recursos",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "coffee": "Invítame un café"
+  },
+  "hero": {
+    "title": "Tu Camino para Convertirte en",
+    "titleHighlight": "Ingeniero de IA",
+    "subtitle": "Una guía completa paso a paso para dominar la ingeniería de inteligencia artificial",
+    "description": "Desde fundamentos hasta aplicaciones avanzadas, aprende todo lo necesario para construir sistemas de IA de vanguardia",
+    "cta": "Comienza Tu Viaje",
+    "stats": {
+      "hours": "800+ Horas",
+      "hoursDesc": "de Contenido de Aprendizaje",
+      "resources": "500+ Recursos",
+      "resourcesDesc": "Materiales Curados",
+      "projects": "50+ Proyectos",
+      "projectsDesc": "Práctica Práctica"
+    }
+  },
+  "introduction": {
+    "title": "¿Qué es un Ingeniero de IA?",
+    "description": "Los Ingenieros de IA son profesionales que diseñan, desarrollan e implementan sistemas de inteligencia artificial. Unen la brecha entre la ciencia de datos y la ingeniería de software, creando soluciones prácticas de IA que resuelven problemas del mundo real.",
+    "responsibilities": "Responsabilidades Clave",
+    "responsibilityList": [
+      "Diseñar y desarrollar modelos de aprendizaje automático",
+      "Construir sistemas e infraestructura de IA escalables",
+      "Implementar soluciones de procesamiento de lenguaje natural",
+      "Crear aplicaciones de visión por computadora",
+      "Desplegar y mantener modelos de IA en producción",
+      "Optimizar el rendimiento y eficiencia de los modelos",
+      "Colaborar con equipos multifuncionales",
+      "Mantenerse actualizado con las últimas investigaciones y tecnologías de IA"
+    ],
+    "whyChoose": "¿Por Qué Convertirse en Ingeniero de IA?",
+    "reasons": [
+      {
+        "title": "Alta Demanda",
+        "description": "Los Ingenieros de IA son de los profesionales más buscados globalmente, con salarios que van desde $120,000 hasta más de $300,000"
+      },
+      {
+        "title": "Innovación",
+        "description": "Trabaja en tecnología de vanguardia que está transformando industrias desde la salud hasta las finanzas y el entretenimiento"
+      },
+      {
+        "title": "Impacto",
+        "description": "Construye soluciones que pueden impactar positivamente millones de vidas y resolver desafíos globales críticos"
+      },
+      {
+        "title": "Crecimiento",
+        "description": "Aprendizaje continuo en un campo en rápida evolución con infinitas oportunidades de desarrollo profesional"
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "Tu Ruta de Aprendizaje",
+    "subtitle": "Sigue este camino completo para dominar la ingeniería de IA",
+    "phases": {
+      "phase1": {
+        "title": "Fase 1: Fundamentos",
+        "duration": "3-4 meses",
+        "description": "Construye una base sólida en matemáticas, programación y fundamentos de ciencias de la computación",
+        "topics": [
+          {
+            "name": "Matemáticas",
+            "items": [
+              "Álgebra Lineal: Vectores, matrices, valores propios, vectores propios",
+              "Cálculo: Derivadas, gradientes, regla de la cadena, optimización",
+              "Probabilidad y Estadística: Distribuciones, teorema de Bayes, pruebas de hipótesis",
+              "Matemáticas Discretas: Teoría de grafos, combinatoria, lógica"
+            ]
+          },
+          {
+            "name": "Programación",
+            "items": [
+              "Python: Sintaxis, estructuras de datos, POO, programación funcional",
+              "NumPy: Operaciones con arrays, broadcasting, álgebra lineal",
+              "Pandas: Manipulación de datos, limpieza, análisis",
+              "Visualización de Datos: Matplotlib, Seaborn, Plotly"
+            ]
+          },
+          {
+            "name": "Fundamentos de Ciencias de la Computación",
+            "items": [
+              "Algoritmos: Ordenamiento, búsqueda, programación dinámica",
+              "Estructuras de Datos: Árboles, grafos, tablas hash, heaps",
+              "Análisis de Complejidad: Notación Big O, complejidad temporal/espacial",
+              "Ingeniería de Software: Control de versiones (Git), testing, debugging"
+            ]
+          }
+        ]
+      },
+      "phase2": {
+        "title": "Fase 2: Fundamentos de Machine Learning",
+        "duration": "4-5 meses",
+        "description": "Domina los fundamentos del aprendizaje automático y modelado estadístico",
+        "topics": [
+          {
+            "name": "Aprendizaje Supervisado",
+            "items": [
+              "Regresión Lineal: Regresión simple, múltiple, polinomial",
+              "Regresión Logística: Clasificación binaria y multiclase",
+              "Árboles de Decisión: CART, poda, métodos de ensamble",
+              "Random Forests: Bagging, importancia de características",
+              "Máquinas de Vectores de Soporte: Kernels, optimización de margen",
+              "k-Vecinos Más Cercanos: Métricas de distancia, maldición de dimensionalidad"
+            ]
+          },
+          {
+            "name": "Aprendizaje No Supervisado",
+            "items": [
+              "K-Means Clustering: Clustering basado en centroides, método del codo",
+              "Clustering Jerárquico: Dendrogramas, métodos de enlace",
+              "DBSCAN: Clustering basado en densidad, detección de valores atípicos",
+              "Reducción de Dimensionalidad: PCA, t-SNE, UMAP",
+              "Reglas de Asociación: Algoritmos Apriori, FP-Growth"
+            ]
+          },
+          {
+            "name": "Evaluación de Modelos",
+            "items": [
+              "Métricas: Exactitud, precisión, recall, F1-score, ROC-AUC",
+              "Validación Cruzada: k-fold, estratificada, división de series temporales",
+              "Compromiso Sesgo-Varianza: Underfitting, overfitting, regularización",
+              "Ajuste de Hiperparámetros: Búsqueda en cuadrícula, búsqueda aleatoria, optimización bayesiana"
+            ]
+          }
+        ]
+      },
+      "phase3": {
+        "title": "Fase 3: Deep Learning",
+        "duration": "5-6 meses",
+        "description": "Sumérgete en redes neuronales y arquitecturas modernas de deep learning",
+        "topics": [
+          {
+            "name": "Fundamentos de Redes Neuronales",
+            "items": [
+              "Perceptrón y Perceptrones Multicapa",
+              "Funciones de Activación: ReLU, Sigmoid, Tanh, Swish",
+              "Retropropagación: Descenso de gradiente, regla de la cadena",
+              "Optimización: SGD, Adam, RMSprop, programación de tasa de aprendizaje",
+              "Regularización: Dropout, normalización por lotes, decaimiento de pesos",
+              "Inicialización: Xavier, He, transfer learning"
+            ]
+          },
+          {
+            "name": "Redes Neuronales Convolucionales",
+            "items": [
+              "Arquitectura CNN: Convolución, pooling, stride, padding",
+              "Modelos Clásicos: LeNet, AlexNet, VGG, ResNet, Inception",
+              "Arquitecturas Modernas: EfficientNet, Vision Transformers",
+              "Transfer Learning: Extracción de características, ajuste fino",
+              "Detección de Objetos: YOLO, R-CNN, SSD, RetinaNet",
+              "Segmentación de Imágenes: U-Net, Mask R-CNN, DeepLab"
+            ]
+          },
+          {
+            "name": "Redes Neuronales Recurrentes",
+            "items": [
+              "Fundamentos de RNN: Procesamiento secuencial, estados ocultos",
+              "LSTM y GRU: Puertas, celdas de memoria, gradientes que desaparecen",
+              "RNNs Bidireccionales: Procesamiento hacia adelante y hacia atrás",
+              "Secuencia a Secuencia: Codificador-decodificador, mecanismo de atención",
+              "Pronóstico de Series Temporales: Predicción univariada, multivariada"
+            ]
+          },
+          {
+            "name": "Transformers y Atención",
+            "items": [
+              "Mecanismo de Auto-Atención: Query, key, value",
+              "Atención Multi-Cabeza: Capas de atención paralelas",
+              "Codificación Posicional: Posiciones absolutas, relativas",
+              "Arquitectura Transformer: Pilas de codificador, decodificador",
+              "BERT: Pre-entrenamiento, ajuste fino, modelado de lenguaje enmascarado",
+              "GPT: Generación autorregresiva, ingeniería de prompts",
+              "Vision Transformers: Incrustación de parches, ViT, DEIT"
+            ]
+          }
+        ]
+      },
+      "phase4": {
+        "title": "Fase 4: Dominios Especializados de IA",
+        "duration": "4-5 meses",
+        "description": "Explora áreas especializadas de IA incluyendo NLP, Visión por Computadora y más",
+        "topics": [
+          {
+            "name": "Procesamiento de Lenguaje Natural",
+            "items": [
+              "Preprocesamiento de Texto: Tokenización, lematización, stopwords",
+              "Embeddings de Palabras: Word2Vec, GloVe, FastText",
+              "Embeddings Contextuales: ELMo, BERT, embeddings GPT",
+              "Clasificación de Texto: Análisis de sentimientos, modelado de temas",
+              "Reconocimiento de Entidades Nombradas: CRF, BiLSTM-CRF, basado en Transformer",
+              "Traducción Automática: Seq2seq, atención, modelos transformer",
+              "Respuesta a Preguntas: Extractiva, abstractiva, basada en recuperación",
+              "Generación de Texto: GPT, ajuste fino, ingeniería de prompts",
+              "Modelos de Lenguaje Grandes: GPT-4, Claude, LLaMA, despliegue"
+            ]
+          },
+          {
+            "name": "Visión por Computadora",
+            "items": [
+              "Procesamiento de Imágenes: Filtrado, detección de bordes, morfología",
+              "Extracción de Características: SIFT, SURF, HOG, ORB",
+              "Clasificación de Imágenes: CNNs, transfer learning, aumento de datos",
+              "Detección de Objetos: Dos etapas (R-CNN) vs una etapa (YOLO)",
+              "Segmentación Semántica: FCN, U-Net, DeepLab, Mask R-CNN",
+              "Reconocimiento Facial: FaceNet, ArcFace, verificación vs identificación",
+              "Estimación de Pose: OpenPose, MediaPipe, pose 2D y 3D",
+              "Análisis de Video: Reconocimiento de acciones, seguimiento, modelado temporal",
+              "Modelos Generativos: GANs, VAEs, Modelos de Difusión, Stable Diffusion"
+            ]
+          },
+          {
+            "name": "Aprendizaje por Refuerzo",
+            "items": [
+              "Fundamentos de RL: Agente, entorno, recompensa, política",
+              "Proceso de Decisión de Markov: Estados, acciones, transiciones, recompensas",
+              "Métodos Basados en Valor: Q-Learning, DQN, Double DQN",
+              "Métodos Basados en Política: Gradiente de política, REINFORCE",
+              "Actor-Crítico: A2C, A3C, función de ventaja",
+              "RL Avanzado: PPO, TRPO, SAC, TD3",
+              "RL Multi-Agente: Cooperación, competencia, comunicación",
+              "Aplicaciones: IA de juegos, robótica, optimización de recursos"
+            ]
+          }
+        ]
+      },
+      "phase5": {
+        "title": "Fase 5: MLOps y Producción",
+        "duration": "3-4 meses",
+        "description": "Aprende a desplegar, monitorear y mantener sistemas de IA en entornos de producción",
+        "topics": [
+          {
+            "name": "Despliegue de Modelos",
+            "items": [
+              "Serialización de Modelos: Pickle, joblib, ONNX, TensorFlow SavedModel",
+              "Desarrollo de API: FastAPI, Flask, REST, GraphQL",
+              "Containerización: Docker, Docker Compose, builds multi-etapa",
+              "Orquestación: Kubernetes, deployments, services, ingress",
+              "Serverless: AWS Lambda, Google Cloud Functions, despliegue edge",
+              "Servicio de Modelos: TensorFlow Serving, TorchServe, Triton"
+            ]
+          },
+          {
+            "name": "Prácticas MLOps",
+            "items": [
+              "Control de Versiones: Git, DVC (Data Version Control), versionado de modelos",
+              "Seguimiento de Experimentos: MLflow, Weights & Biases, Neptune",
+              "Automatización de Pipelines: Airflow, Kubeflow, MLflow Pipelines",
+              "CI/CD para ML: GitHub Actions, Jenkins, testing automatizado",
+              "Registro de Modelos: Gestión centralizada de modelos, seguimiento de metadatos",
+              "Feature Stores: Feast, Tecton, pipelines de ingeniería de características"
+            ]
+          },
+          {
+            "name": "Monitoreo y Mantenimiento",
+            "items": [
+              "Monitoreo de Modelos: Métricas de rendimiento, drift de datos, drift de concepto",
+              "Logging: Logging estructurado, agregación de logs, análisis",
+              "Alertas: Basadas en umbrales, detección de anomalías, PagerDuty",
+              "Pruebas A/B: Experimentación, significancia estadística",
+              "Reentrenamiento de Modelos: Programado, activado, aprendizaje en línea",
+              "Optimización de Rendimiento: Cuantización, poda, destilación"
+            ]
+          },
+          {
+            "name": "Plataformas en la Nube",
+            "items": [
+              "AWS: SageMaker, EC2, S3, Lambda, ECS, EKS",
+              "Google Cloud: Vertex AI, Compute Engine, Cloud Storage, GKE",
+              "Azure: Machine Learning, VMs, Blob Storage, AKS",
+              "Infraestructura como Código: Terraform, CloudFormation, Pulumi"
+            ]
+          }
+        ]
+      },
+      "phase6": {
+        "title": "Fase 6: Temas Avanzados",
+        "duration": "Continuo",
+        "description": "Mantente actualizado con investigación de IA de vanguardia y tecnologías emergentes",
+        "topics": [
+          {
+            "name": "Arquitecturas Avanzadas",
+            "items": [
+              "Búsqueda de Arquitectura Neural: AutoML, DARTS, EfficientNet",
+              "Redes Neuronales de Grafos: GCN, GAT, GraphSAGE",
+              "Meta-Aprendizaje: Aprendizaje few-shot, MAML, Redes Prototípicas",
+              "Aprendizaje Auto-Supervisado: Aprendizaje contrastivo, SimCLR, MoCo",
+              "Aprendizaje Multimodal: CLIP, DALL-E, Flamingo, modelos unificados"
+            ]
+          },
+          {
+            "name": "IA Generativa",
+            "items": [
+              "Redes Generativas Adversarias: StyleGAN, CycleGAN, Pix2Pix",
+              "Autoencoders Variacionales: VAE, β-VAE, VQ-VAE",
+              "Modelos de Difusión: DDPM, DDIM, Difusión Latente, Stable Diffusion",
+              "Texto a Imagen: DALL-E 2, Midjourney, Stable Diffusion",
+              "Modelos de Lenguaje Grandes: GPT-4, Claude, LLaMA, ingeniería de prompts",
+              "Generación Aumentada por Recuperación: RAG, bases de datos vectoriales, embeddings"
+            ]
+          },
+          {
+            "name": "Ética y Seguridad de IA",
+            "items": [
+              "Equidad: Detección de sesgos, estrategias de mitigación, ML justo",
+              "Interpretabilidad: LIME, SHAP, visualización de atención, mapas de saliencia",
+              "Privacidad: Privacidad diferencial, aprendizaje federado, computación segura",
+              "Robustez: Ejemplos adversarios, mecanismos de defensa",
+              "Alineación de IA: Alineación de valores, restricciones de seguridad, RLHF",
+              "IA Responsable: Directrices éticas, evaluación de impacto social"
+            ]
+          },
+          {
+            "name": "Aplicaciones Especializadas",
+            "items": [
+              "IA en Salud: Imagenología médica, diagnóstico, descubrimiento de fármacos",
+              "IA Financiera: Trading algorítmico, detección de fraudes, evaluación de riesgos",
+              "Sistemas Autónomos: Autos autónomos, robótica, navegación de drones",
+              "Sistemas de Recomendación: Filtrado colaborativo, basado en contenido, híbrido",
+              "Procesamiento de Voz: ASR, TTS, clonación de voz, reconocimiento de emociones",
+              "Series Temporales: Pronóstico, detección de anomalías, inferencia causal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "title": "Recursos Esenciales",
+    "subtitle": "Materiales de aprendizaje curados para acelerar tu viaje",
+    "categories": {
+      "courses": {
+        "title": "Cursos en Línea",
+        "items": [
+          {
+            "name": "Deep Learning Specialization",
+            "provider": "Coursera (Andrew Ng)",
+            "description": "Curso completo de deep learning que cubre redes neuronales, CNNs, RNNs y más",
+            "level": "Principiante a Intermedio"
+          },
+          {
+            "name": "Fast.ai Practical Deep Learning",
+            "provider": "fast.ai",
+            "description": "Enfoque de arriba hacia abajo para aprender deep learning con proyectos prácticos",
+            "level": "Principiante a Avanzado"
+          },
+          {
+            "name": "CS229: Machine Learning",
+            "provider": "Stanford University",
+            "description": "Curso de posgrado sobre teoría y aplicaciones de machine learning",
+            "level": "Intermedio a Avanzado"
+          },
+          {
+            "name": "CS231n: Convolutional Neural Networks",
+            "provider": "Stanford University",
+            "description": "Inmersión profunda en visión por computadora y CNNs",
+            "level": "Intermedio a Avanzado"
+          },
+          {
+            "name": "CS224n: Natural Language Processing",
+            "provider": "Stanford University",
+            "description": "Curso completo de NLP con enfoque en deep learning",
+            "level": "Intermedio a Avanzado"
+          },
+          {
+            "name": "Full Stack Deep Learning",
+            "provider": "UC Berkeley",
+            "description": "Aprende a construir y desplegar sistemas ML listos para producción",
+            "level": "Intermedio a Avanzado"
+          }
+        ]
+      },
+      "books": {
+        "title": "Libros Esenciales",
+        "items": [
+          {
+            "name": "Deep Learning",
+            "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+            "description": "El libro de texto definitivo sobre teoría y práctica de deep learning"
+          },
+          {
+            "name": "Hands-On Machine Learning",
+            "author": "Aurélien Géron",
+            "description": "Guía práctica con Scikit-Learn, Keras y TensorFlow"
+          },
+          {
+            "name": "Pattern Recognition and Machine Learning",
+            "author": "Christopher Bishop",
+            "description": "Tratamiento completo de algoritmos y teoría de ML"
+          },
+          {
+            "name": "The Hundred-Page Machine Learning Book",
+            "author": "Andriy Burkov",
+            "description": "Visión concisa de conceptos y técnicas de ML"
+          },
+          {
+            "name": "Designing Machine Learning Systems",
+            "author": "Chip Huyen",
+            "description": "Diseño de sistemas ML de producción y mejores prácticas"
+          },
+          {
+            "name": "Speech and Language Processing",
+            "author": "Dan Jurafsky, James H. Martin",
+            "description": "Libro de texto completo de NLP con enfoques modernos de deep learning"
+          }
+        ]
+      },
+      "frameworks": {
+        "title": "Frameworks y Herramientas",
+        "items": [
+          {
+            "name": "TensorFlow / Keras",
+            "description": "Plataforma ML end-to-end de Google con API de alto nivel Keras",
+            "use": "ML de producción, investigación, despliegue móvil"
+          },
+          {
+            "name": "PyTorch",
+            "description": "Framework de deep learning dinámico de Facebook",
+            "use": "Investigación, experimentación, producción con TorchServe"
+          },
+          {
+            "name": "Scikit-Learn",
+            "description": "Biblioteca de machine learning clásico para Python",
+            "use": "ML tradicional, preprocesamiento, evaluación de modelos"
+          },
+          {
+            "name": "Hugging Face Transformers",
+            "description": "Modelos y herramientas NLP de última generación",
+            "use": "Tareas NLP, modelos pre-entrenados, ajuste fino"
+          },
+          {
+            "name": "LangChain",
+            "description": "Framework para construir aplicaciones impulsadas por LLM",
+            "use": "Apps LLM, agentes, sistemas RAG"
+          },
+          {
+            "name": "OpenCV",
+            "description": "Biblioteca de visión por computadora con capacidades ML",
+            "use": "Procesamiento de imágenes, CV tradicional, análisis de video"
+          }
+        ]
+      },
+      "platforms": {
+        "title": "Plataformas de Práctica",
+        "items": [
+          {
+            "name": "Kaggle",
+            "description": "Competencias ML, datasets y notebooks colaborativos"
+          },
+          {
+            "name": "Google Colab",
+            "description": "Notebooks Jupyter gratuitos con GPU habilitada en la nube"
+          },
+          {
+            "name": "Papers with Code",
+            "description": "Papers ML con código de implementación y benchmarks"
+          },
+          {
+            "name": "Hugging Face Hub",
+            "description": "Repositorio de modelos, datasets y aplicaciones ML"
+          },
+          {
+            "name": "GitHub",
+            "description": "Explora proyectos ML de código abierto y contribuye"
+          }
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades Esenciales",
+    "subtitle": "Domina estas competencias para sobresalir como Ingeniero de IA",
+    "technical": {
+      "title": "Habilidades Técnicas",
+      "items": [
+        {
+          "category": "Programación",
+          "skills": [
+            "Python (Avanzado): NumPy, Pandas, scikit-learn",
+            "C++ para código crítico de rendimiento",
+            "SQL para manipulación de datos y consultas",
+            "Scripts de shell para automatización",
+            "Git para control de versiones y colaboración"
+          ]
+        },
+        {
+          "category": "Matemáticas",
+          "skills": [
+            "Álgebra Lineal: Operaciones con matrices, descomposiciones",
+            "Cálculo: Optimización, gradientes, regla de la cadena",
+            "Probabilidad y Estadística: Distribuciones, inferencia",
+            "Teoría de la Información: Entropía, divergencia KL",
+            "Teoría de Optimización: Optimización convexa, descenso de gradiente"
+          ]
+        },
+        {
+          "category": "Machine Learning",
+          "skills": [
+            "Algoritmos de Aprendizaje Supervisado y No Supervisado",
+            "Deep Learning: CNNs, RNNs, Transformers",
+            "Técnicas de evaluación y validación de modelos",
+            "Ingeniería y selección de características",
+            "Ajuste de hiperparámetros y AutoML"
+          ]
+        },
+        {
+          "category": "Ingeniería",
+          "skills": [
+            "Patrones de diseño de software y arquitectura",
+            "Diseño y desarrollo de API (REST, gRPC)",
+            "Diseño y optimización de bases de datos",
+            "Sistemas distribuidos y escalabilidad",
+            "Testing: Pruebas unitarias, de integración, específicas de ML"
+          ]
+        },
+        {
+          "category": "DevOps y MLOps",
+          "skills": [
+            "Containerización y orquestación con Docker",
+            "Kubernetes para despliegues de producción",
+            "Pipelines CI/CD para modelos ML",
+            "Plataformas cloud: AWS, GCP, Azure",
+            "Monitoreo, logging y observabilidad"
+          ]
+        }
+      ]
+    },
+    "soft": {
+      "title": "Habilidades Profesionales",
+      "items": [
+        {
+          "skill": "Resolución de Problemas",
+          "description": "Descomponer problemas complejos y diseñar soluciones efectivas de IA"
+        },
+        {
+          "skill": "Comunicación",
+          "description": "Explicar conceptos técnicos a stakeholders no técnicos de manera clara"
+        },
+        {
+          "skill": "Investigación",
+          "description": "Leer e implementar ideas de papers de investigación y documentación"
+        },
+        {
+          "skill": "Colaboración",
+          "description": "Trabajar efectivamente con equipos multifuncionales y contribuir a código abierto"
+        },
+        {
+          "skill": "Aprendizaje Continuo",
+          "description": "Mantenerse actualizado con tecnologías de IA y mejores prácticas en rápida evolución"
+        },
+        {
+          "skill": "Gestión de Proyectos",
+          "description": "Planificar, ejecutar y entregar proyectos ML a tiempo y dentro del alcance"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos Prácticos",
+    "subtitle": "Construye tu portafolio con estos proyectos prácticos",
+    "beginner": {
+      "title": "Proyectos Principiantes",
+      "items": [
+        {
+          "name": "Clasificación de Flores Iris",
+          "description": "Construye un clasificador para identificar especies de iris usando algoritmos ML clásicos",
+          "skills": ["Scikit-learn", "Preprocesamiento de datos", "Evaluación de modelos"],
+          "duration": "1-2 días"
+        },
+        {
+          "name": "Predicción de Precios de Casas",
+          "description": "Predice precios de casas usando técnicas de regresión e ingeniería de características",
+          "skills": ["Regresión lineal", "Ingeniería de características", "Validación cruzada"],
+          "duration": "3-5 días"
+        },
+        {
+          "name": "Análisis de Sentimientos",
+          "description": "Clasifica reseñas de películas como positivas o negativas usando NLP",
+          "skills": ["Preprocesamiento de texto", "TF-IDF", "Regresión logística"],
+          "duration": "3-5 días"
+        },
+        {
+          "name": "Reconocimiento de Dígitos MNIST",
+          "description": "Construye una red neuronal para reconocer dígitos escritos a mano",
+          "skills": ["Redes neuronales", "TensorFlow/PyTorch", "Datos de imágenes"],
+          "duration": "5-7 días"
+        }
+      ]
+    },
+    "intermediate": {
+      "title": "Proyectos Intermedios",
+      "items": [
+        {
+          "name": "Clasificación de Imágenes con CNNs",
+          "description": "Clasifica imágenes de CIFAR-10 o ImageNet usando redes neuronales convolucionales",
+          "skills": ["CNNs", "Transfer learning", "Aumento de datos"],
+          "duration": "1-2 semanas"
+        },
+        {
+          "name": "Generación de Texto con RNNs",
+          "description": "Genera texto usando redes LSTM o GRU entrenadas en libros o artículos",
+          "skills": ["RNNs", "LSTM/GRU", "Modelado de secuencias"],
+          "duration": "1-2 semanas"
+        },
+        {
+          "name": "Sistema de Detección de Objetos",
+          "description": "Detecta y localiza objetos en imágenes usando YOLO o Faster R-CNN",
+          "skills": ["Detección de objetos", "Visión por computadora", "Procesamiento en tiempo real"],
+          "duration": "2-3 semanas"
+        },
+        {
+          "name": "Motor de Recomendación",
+          "description": "Construye un sistema de recomendación de películas o productos",
+          "skills": ["Filtrado colaborativo", "Factorización de matrices", "Redes neuronales"],
+          "duration": "2-3 semanas"
+        },
+        {
+          "name": "Chatbot con NLP",
+          "description": "Crea un chatbot inteligente usando transformers o BERT",
+          "skills": ["NLP", "Transformers", "Clasificación de intenciones"],
+          "duration": "2-4 semanas"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Proyectos Avanzados",
+      "items": [
+        {
+          "name": "Sistema de Respuesta a Preguntas",
+          "description": "Construye un sistema QA usando BERT u otros modelos transformer con recuperación",
+          "skills": ["Transformers", "RAG", "Bases de datos vectoriales", "Ajuste fino"],
+          "duration": "3-4 semanas"
+        },
+        {
+          "name": "Generación de Imágenes con GANs",
+          "description": "Genera imágenes realistas usando Redes Generativas Adversarias",
+          "skills": ["GANs", "Deep learning", "Síntesis de imágenes"],
+          "duration": "3-4 semanas"
+        },
+        {
+          "name": "Sistema de Reconocimiento de Voz",
+          "description": "Construye un sistema ASR que convierte voz a texto",
+          "skills": ["Procesamiento de audio", "RNNs/Transformers", "CTC loss"],
+          "duration": "4-6 semanas"
+        },
+        {
+          "name": "Agente Autónomo con RL",
+          "description": "Entrena un agente para jugar juegos o controlar robots usando aprendizaje por refuerzo",
+          "skills": ["Aprendizaje por refuerzo", "Gradientes de política", "OpenAI Gym"],
+          "duration": "4-6 semanas"
+        },
+        {
+          "name": "Aplicación ML Full-Stack",
+          "description": "Construye y despliega una aplicación ML end-to-end con interfaz web",
+          "skills": ["MLOps", "Desarrollo de API", "Docker", "Despliegue en nube"],
+          "duration": "6-8 semanas"
+        },
+        {
+          "name": "Implementación de Paper de Investigación",
+          "description": "Implementa un paper de investigación reciente de IA y reproduce resultados",
+          "skills": ["Investigación", "PyTorch/TensorFlow", "Experimentación"],
+          "duration": "6-12 semanas"
+        }
+      ]
+    }
+  },
+  "tips": {
+    "title": "Consejos para el Éxito",
+    "subtitle": "Consejos de Ingenieros de IA experimentados",
+    "items": [
+      {
+        "title": "Construye Proyectos, No Solo Tutoriales",
+        "description": "No solo sigas tutoriales. Construye tus propios proyectos para realmente entender conceptos y mostrar tus habilidades."
+      },
+      {
+        "title": "Lee Papers de Investigación",
+        "description": "Mantente actualizado leyendo papers de arXiv, conferencias (NeurIPS, ICML, CVPR). Comienza con papers de revisión recientes."
+      },
+      {
+        "title": "Contribuye a Código Abierto",
+        "description": "Contribuye a frameworks ML y proyectos. Es excelente para aprender y construir tu red profesional."
+      },
+      {
+        "title": "Domina los Fundamentos",
+        "description": "No te saltes matemáticas y ML clásico. Son cruciales para entender por qué las cosas funcionan y para depurar."
+      },
+      {
+        "title": "Practica con Datos Reales",
+        "description": "Trabaja con datasets desordenados del mundo real. Aprende a limpiar datos, manejar valores faltantes y lidiar con desbalances."
+      },
+      {
+        "title": "Aprende a Desplegar",
+        "description": "Los modelos son inútiles si no pueden ser desplegados. Aprende Docker, APIs, plataformas cloud y prácticas MLOps."
+      },
+      {
+        "title": "Únete a la Comunidad",
+        "description": "Interactúa con la comunidad IA a través de Twitter, Discord, Reddit y meetups locales. Aprende de las experiencias de otros."
+      },
+      {
+        "title": "Documenta Tu Trabajo",
+        "description": "Escribe posts de blog, crea tutoriales, comparte tus proyectos. Enseñar a otros refuerza tu propia comprensión."
+      },
+      {
+        "title": "Experimenta e Itera",
+        "description": "Prueba diferentes enfoques, compara resultados y aprende de los fallos. Mantén un registro de experimentos."
+      },
+      {
+        "title": "Mantente Humilde y Curioso",
+        "description": "La IA es vasta y está evolucionando. Abraza el aprendizaje continuo y no tengas miedo de decir 'Aún no lo sé'."
+      }
+    ]
+  },
+  "coffee": {
+    "title": "Apoya Este Proyecto",
+    "subtitle": "Si esta ruta de aprendizaje te ayudó en tu viaje de ingeniería de IA",
+    "description": "Crear y mantener recursos educativos completos toma tiempo y esfuerzo. Si encontraste útil esta guía, considera invitarme un café para apoyar la creación de más materiales de aprendizaje gratuitos para aspirantes a ingenieros de IA.",
+    "benefits": {
+      "title": "Tu apoyo ayuda a:",
+      "items": [
+        "Mantener este recurso gratuito y accesible para todos",
+        "Financiar la creación de nuevos tutoriales y guías",
+        "Mantener y actualizar contenido con las últimas tendencias de IA",
+        "Apoyar a la comunidad de educación en IA de código abierto"
+      ]
+    },
+    "button": "Invítame un Café ☕",
+    "thanks": "¡Gracias por tu apoyo!",
+    "share": "Comparte este recurso con otros que puedan encontrarlo útil"
+  },
+  "footer": {
+    "description": "Una guía completa para convertirse en Ingeniero de IA",
+    "quickLinks": "Enlaces Rápidos",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "connect": "Conectar",
+    "rights": "Todos los derechos reservados.",
+    "madeWith": "Hecho con",
+    "for": "para aspirantes a Ingenieros de IA en todo el mundo"
+  }
+}

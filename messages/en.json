@@ -1,0 +1,747 @@
+{
+  "nav": {
+    "home": "Home",
+    "roadmap": "Roadmap",
+    "resources": "Resources",
+    "skills": "Skills",
+    "projects": "Projects",
+    "coffee": "Buy me a coffee"
+  },
+  "hero": {
+    "title": "Your Journey to Becoming an",
+    "titleHighlight": "AI Engineer",
+    "subtitle": "A comprehensive, step-by-step guide to master artificial intelligence engineering",
+    "description": "From fundamentals to advanced applications, learn everything you need to build cutting-edge AI systems",
+    "cta": "Start Your Journey",
+    "stats": {
+      "hours": "800+ Hours",
+      "hoursDesc": "of Learning Content",
+      "resources": "500+ Resources",
+      "resourcesDesc": "Curated Materials",
+      "projects": "50+ Projects",
+      "projectsDesc": "Hands-on Practice"
+    }
+  },
+  "introduction": {
+    "title": "What is an AI Engineer?",
+    "description": "AI Engineers are professionals who design, develop, and deploy artificial intelligence systems. They bridge the gap between data science and software engineering, creating practical AI solutions that solve real-world problems.",
+    "responsibilities": "Key Responsibilities",
+    "responsibilityList": [
+      "Design and develop machine learning models",
+      "Build scalable AI systems and infrastructure",
+      "Implement natural language processing solutions",
+      "Create computer vision applications",
+      "Deploy and maintain AI models in production",
+      "Optimize model performance and efficiency",
+      "Collaborate with cross-functional teams",
+      "Stay updated with latest AI research and technologies"
+    ],
+    "whyChoose": "Why Become an AI Engineer?",
+    "reasons": [
+      {
+        "title": "High Demand",
+        "description": "AI Engineers are among the most sought-after professionals globally, with salaries ranging from $120,000 to $300,000+"
+      },
+      {
+        "title": "Innovation",
+        "description": "Work on cutting-edge technology that's transforming industries from healthcare to finance to entertainment"
+      },
+      {
+        "title": "Impact",
+        "description": "Build solutions that can positively impact millions of lives and solve critical global challenges"
+      },
+      {
+        "title": "Growth",
+        "description": "Continuous learning in a rapidly evolving field with endless opportunities for professional development"
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "Your Learning Roadmap",
+    "subtitle": "Follow this comprehensive path to master AI engineering",
+    "phases": {
+      "phase1": {
+        "title": "Phase 1: Foundations",
+        "duration": "3-4 months",
+        "description": "Build a strong foundation in mathematics, programming, and computer science fundamentals",
+        "topics": [
+          {
+            "name": "Mathematics",
+            "items": [
+              "Linear Algebra: Vectors, matrices, eigenvalues, eigenvectors",
+              "Calculus: Derivatives, gradients, chain rule, optimization",
+              "Probability & Statistics: Distributions, Bayes theorem, hypothesis testing",
+              "Discrete Mathematics: Graph theory, combinatorics, logic"
+            ]
+          },
+          {
+            "name": "Programming",
+            "items": [
+              "Python: Syntax, data structures, OOP, functional programming",
+              "NumPy: Array operations, broadcasting, linear algebra",
+              "Pandas: Data manipulation, cleaning, analysis",
+              "Data Visualization: Matplotlib, Seaborn, Plotly"
+            ]
+          },
+          {
+            "name": "Computer Science Fundamentals",
+            "items": [
+              "Algorithms: Sorting, searching, dynamic programming",
+              "Data Structures: Trees, graphs, hash tables, heaps",
+              "Complexity Analysis: Big O notation, time/space complexity",
+              "Software Engineering: Version control (Git), testing, debugging"
+            ]
+          }
+        ]
+      },
+      "phase2": {
+        "title": "Phase 2: Machine Learning Basics",
+        "duration": "4-5 months",
+        "description": "Master the fundamentals of machine learning and statistical modeling",
+        "topics": [
+          {
+            "name": "Supervised Learning",
+            "items": [
+              "Linear Regression: Simple, multiple, polynomial regression",
+              "Logistic Regression: Binary and multiclass classification",
+              "Decision Trees: CART, pruning, ensemble methods",
+              "Random Forests: Bagging, feature importance",
+              "Support Vector Machines: Kernels, margin optimization",
+              "k-Nearest Neighbors: Distance metrics, curse of dimensionality"
+            ]
+          },
+          {
+            "name": "Unsupervised Learning",
+            "items": [
+              "K-Means Clustering: Centroid-based clustering, elbow method",
+              "Hierarchical Clustering: Dendrograms, linkage methods",
+              "DBSCAN: Density-based clustering, outlier detection",
+              "Dimensionality Reduction: PCA, t-SNE, UMAP",
+              "Association Rules: Apriori, FP-Growth algorithms"
+            ]
+          },
+          {
+            "name": "Model Evaluation",
+            "items": [
+              "Metrics: Accuracy, precision, recall, F1-score, ROC-AUC",
+              "Cross-Validation: k-fold, stratified, time series split",
+              "Bias-Variance Tradeoff: Underfitting, overfitting, regularization",
+              "Hyperparameter Tuning: Grid search, random search, Bayesian optimization"
+            ]
+          }
+        ]
+      },
+      "phase3": {
+        "title": "Phase 3: Deep Learning",
+        "duration": "5-6 months",
+        "description": "Dive deep into neural networks and modern deep learning architectures",
+        "topics": [
+          {
+            "name": "Neural Network Fundamentals",
+            "items": [
+              "Perceptron & Multi-Layer Perceptrons",
+              "Activation Functions: ReLU, Sigmoid, Tanh, Swish",
+              "Backpropagation: Gradient descent, chain rule",
+              "Optimization: SGD, Adam, RMSprop, learning rate schedules",
+              "Regularization: Dropout, batch normalization, weight decay",
+              "Initialization: Xavier, He, transfer learning"
+            ]
+          },
+          {
+            "name": "Convolutional Neural Networks",
+            "items": [
+              "CNN Architecture: Convolution, pooling, stride, padding",
+              "Classic Models: LeNet, AlexNet, VGG, ResNet, Inception",
+              "Modern Architectures: EfficientNet, Vision Transformers",
+              "Transfer Learning: Feature extraction, fine-tuning",
+              "Object Detection: YOLO, R-CNN, SSD, RetinaNet",
+              "Image Segmentation: U-Net, Mask R-CNN, DeepLab"
+            ]
+          },
+          {
+            "name": "Recurrent Neural Networks",
+            "items": [
+              "RNN Basics: Sequential processing, hidden states",
+              "LSTM & GRU: Gates, memory cells, vanishing gradients",
+              "Bidirectional RNNs: Forward and backward processing",
+              "Sequence-to-Sequence: Encoder-decoder, attention mechanism",
+              "Time Series Forecasting: Univariate, multivariate prediction"
+            ]
+          },
+          {
+            "name": "Transformers & Attention",
+            "items": [
+              "Self-Attention Mechanism: Query, key, value",
+              "Multi-Head Attention: Parallel attention layers",
+              "Positional Encoding: Absolute, relative positions",
+              "Transformer Architecture: Encoder, decoder stacks",
+              "BERT: Pre-training, fine-tuning, masked language modeling",
+              "GPT: Autoregressive generation, prompt engineering",
+              "Vision Transformers: Patch embedding, ViT, DEIT"
+            ]
+          }
+        ]
+      },
+      "phase4": {
+        "title": "Phase 4: Specialized AI Domains",
+        "duration": "4-5 months",
+        "description": "Explore specialized areas of AI including NLP, Computer Vision, and more",
+        "topics": [
+          {
+            "name": "Natural Language Processing",
+            "items": [
+              "Text Preprocessing: Tokenization, lemmatization, stopwords",
+              "Word Embeddings: Word2Vec, GloVe, FastText",
+              "Contextual Embeddings: ELMo, BERT, GPT embeddings",
+              "Text Classification: Sentiment analysis, topic modeling",
+              "Named Entity Recognition: CRF, BiLSTM-CRF, Transformer-based",
+              "Machine Translation: Seq2seq, attention, transformer models",
+              "Question Answering: Extractive, abstractive, retrieval-based",
+              "Text Generation: GPT, fine-tuning, prompt engineering",
+              "Large Language Models: GPT-4, Claude, LLaMA, deployment"
+            ]
+          },
+          {
+            "name": "Computer Vision",
+            "items": [
+              "Image Processing: Filtering, edge detection, morphology",
+              "Feature Extraction: SIFT, SURF, HOG, ORB",
+              "Image Classification: CNNs, transfer learning, data augmentation",
+              "Object Detection: Two-stage (R-CNN) vs one-stage (YOLO)",
+              "Semantic Segmentation: FCN, U-Net, DeepLab, Mask R-CNN",
+              "Face Recognition: FaceNet, ArcFace, verification vs identification",
+              "Pose Estimation: OpenPose, MediaPipe, 2D and 3D pose",
+              "Video Analysis: Action recognition, tracking, temporal modeling",
+              "Generative Models: GANs, VAEs, Diffusion Models, Stable Diffusion"
+            ]
+          },
+          {
+            "name": "Reinforcement Learning",
+            "items": [
+              "RL Fundamentals: Agent, environment, reward, policy",
+              "Markov Decision Process: States, actions, transitions, rewards",
+              "Value-Based Methods: Q-Learning, DQN, Double DQN",
+              "Policy-Based Methods: Policy gradient, REINFORCE",
+              "Actor-Critic: A2C, A3C, advantage function",
+              "Advanced RL: PPO, TRPO, SAC, TD3",
+              "Multi-Agent RL: Cooperation, competition, communication",
+              "Applications: Game AI, robotics, resource optimization"
+            ]
+          }
+        ]
+      },
+      "phase5": {
+        "title": "Phase 5: MLOps & Production",
+        "duration": "3-4 months",
+        "description": "Learn to deploy, monitor, and maintain AI systems in production environments",
+        "topics": [
+          {
+            "name": "Model Deployment",
+            "items": [
+              "Model Serialization: Pickle, joblib, ONNX, TensorFlow SavedModel",
+              "API Development: FastAPI, Flask, REST, GraphQL",
+              "Containerization: Docker, Docker Compose, multi-stage builds",
+              "Orchestration: Kubernetes, deployments, services, ingress",
+              "Serverless: AWS Lambda, Google Cloud Functions, edge deployment",
+              "Model Serving: TensorFlow Serving, TorchServe, Triton"
+            ]
+          },
+          {
+            "name": "MLOps Practices",
+            "items": [
+              "Version Control: Git, DVC (Data Version Control), model versioning",
+              "Experiment Tracking: MLflow, Weights & Biases, Neptune",
+              "Pipeline Automation: Airflow, Kubeflow, MLflow Pipelines",
+              "CI/CD for ML: GitHub Actions, Jenkins, automated testing",
+              "Model Registry: Centralized model management, metadata tracking",
+              "Feature Stores: Feast, Tecton, feature engineering pipelines"
+            ]
+          },
+          {
+            "name": "Monitoring & Maintenance",
+            "items": [
+              "Model Monitoring: Performance metrics, data drift, concept drift",
+              "Logging: Structured logging, log aggregation, analysis",
+              "Alerting: Threshold-based, anomaly detection, PagerDuty",
+              "A/B Testing: Experimentation, statistical significance",
+              "Model Retraining: Scheduled, triggered, online learning",
+              "Performance Optimization: Quantization, pruning, distillation"
+            ]
+          },
+          {
+            "name": "Cloud Platforms",
+            "items": [
+              "AWS: SageMaker, EC2, S3, Lambda, ECS, EKS",
+              "Google Cloud: Vertex AI, Compute Engine, Cloud Storage, GKE",
+              "Azure: Machine Learning, VMs, Blob Storage, AKS",
+              "Infrastructure as Code: Terraform, CloudFormation, Pulumi"
+            ]
+          }
+        ]
+      },
+      "phase6": {
+        "title": "Phase 6: Advanced Topics",
+        "duration": "Ongoing",
+        "description": "Stay current with cutting-edge AI research and emerging technologies",
+        "topics": [
+          {
+            "name": "Advanced Architectures",
+            "items": [
+              "Neural Architecture Search: AutoML, DARTS, EfficientNet",
+              "Graph Neural Networks: GCN, GAT, GraphSAGE",
+              "Meta-Learning: Few-shot learning, MAML, Prototypical Networks",
+              "Self-Supervised Learning: Contrastive learning, SimCLR, MoCo",
+              "Multimodal Learning: CLIP, DALL-E, Flamingo, unified models"
+            ]
+          },
+          {
+            "name": "Generative AI",
+            "items": [
+              "Generative Adversarial Networks: StyleGAN, CycleGAN, Pix2Pix",
+              "Variational Autoencoders: VAE, β-VAE, VQ-VAE",
+              "Diffusion Models: DDPM, DDIM, Latent Diffusion, Stable Diffusion",
+              "Text-to-Image: DALL-E 2, Midjourney, Stable Diffusion",
+              "Large Language Models: GPT-4, Claude, LLaMA, prompt engineering",
+              "Retrieval-Augmented Generation: RAG, vector databases, embeddings"
+            ]
+          },
+          {
+            "name": "AI Ethics & Safety",
+            "items": [
+              "Fairness: Bias detection, mitigation strategies, fair ML",
+              "Interpretability: LIME, SHAP, attention visualization, saliency maps",
+              "Privacy: Differential privacy, federated learning, secure computation",
+              "Robustness: Adversarial examples, defense mechanisms",
+              "AI Alignment: Value alignment, safety constraints, RLHF",
+              "Responsible AI: Ethics guidelines, societal impact assessment"
+            ]
+          },
+          {
+            "name": "Specialized Applications",
+            "items": [
+              "Healthcare AI: Medical imaging, diagnosis, drug discovery",
+              "Financial AI: Algorithmic trading, fraud detection, risk assessment",
+              "Autonomous Systems: Self-driving cars, robotics, drone navigation",
+              "Recommendation Systems: Collaborative filtering, content-based, hybrid",
+              "Speech Processing: ASR, TTS, voice cloning, emotion recognition",
+              "Time Series: Forecasting, anomaly detection, causal inference"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "title": "Essential Resources",
+    "subtitle": "Curated learning materials to accelerate your journey",
+    "categories": {
+      "courses": {
+        "title": "Online Courses",
+        "items": [
+          {
+            "name": "Deep Learning Specialization",
+            "provider": "Coursera (Andrew Ng)",
+            "description": "Comprehensive deep learning course covering neural networks, CNNs, RNNs, and more",
+            "level": "Beginner to Intermediate"
+          },
+          {
+            "name": "Fast.ai Practical Deep Learning",
+            "provider": "fast.ai",
+            "description": "Top-down approach to learning deep learning with practical projects",
+            "level": "Beginner to Advanced"
+          },
+          {
+            "name": "CS229: Machine Learning",
+            "provider": "Stanford University",
+            "description": "Graduate-level course on machine learning theory and applications",
+            "level": "Intermediate to Advanced"
+          },
+          {
+            "name": "CS231n: Convolutional Neural Networks",
+            "provider": "Stanford University",
+            "description": "Deep dive into computer vision and CNNs",
+            "level": "Intermediate to Advanced"
+          },
+          {
+            "name": "CS224n: Natural Language Processing",
+            "provider": "Stanford University",
+            "description": "Comprehensive NLP course with deep learning focus",
+            "level": "Intermediate to Advanced"
+          },
+          {
+            "name": "Full Stack Deep Learning",
+            "provider": "UC Berkeley",
+            "description": "Learn to build and deploy production-ready ML systems",
+            "level": "Intermediate to Advanced"
+          }
+        ]
+      },
+      "books": {
+        "title": "Essential Books",
+        "items": [
+          {
+            "name": "Deep Learning",
+            "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+            "description": "The definitive textbook on deep learning theory and practice"
+          },
+          {
+            "name": "Hands-On Machine Learning",
+            "author": "Aurélien Géron",
+            "description": "Practical guide with Scikit-Learn, Keras, and TensorFlow"
+          },
+          {
+            "name": "Pattern Recognition and Machine Learning",
+            "author": "Christopher Bishop",
+            "description": "Comprehensive treatment of ML algorithms and theory"
+          },
+          {
+            "name": "The Hundred-Page Machine Learning Book",
+            "author": "Andriy Burkov",
+            "description": "Concise overview of ML concepts and techniques"
+          },
+          {
+            "name": "Designing Machine Learning Systems",
+            "author": "Chip Huyen",
+            "description": "Production ML systems design and best practices"
+          },
+          {
+            "name": "Speech and Language Processing",
+            "author": "Dan Jurafsky, James H. Martin",
+            "description": "Comprehensive NLP textbook with modern deep learning approaches"
+          }
+        ]
+      },
+      "frameworks": {
+        "title": "Frameworks & Tools",
+        "items": [
+          {
+            "name": "TensorFlow / Keras",
+            "description": "Google's end-to-end ML platform with high-level Keras API",
+            "use": "Production ML, research, mobile deployment"
+          },
+          {
+            "name": "PyTorch",
+            "description": "Facebook's dynamic deep learning framework",
+            "use": "Research, experimentation, production with TorchServe"
+          },
+          {
+            "name": "Scikit-Learn",
+            "description": "Classical machine learning library for Python",
+            "use": "Traditional ML, preprocessing, model evaluation"
+          },
+          {
+            "name": "Hugging Face Transformers",
+            "description": "State-of-the-art NLP models and tools",
+            "use": "NLP tasks, pre-trained models, fine-tuning"
+          },
+          {
+            "name": "LangChain",
+            "description": "Framework for building LLM-powered applications",
+            "use": "LLM apps, agents, RAG systems"
+          },
+          {
+            "name": "OpenCV",
+            "description": "Computer vision library with ML capabilities",
+            "use": "Image processing, traditional CV, video analysis"
+          }
+        ]
+      },
+      "platforms": {
+        "title": "Practice Platforms",
+        "items": [
+          {
+            "name": "Kaggle",
+            "description": "ML competitions, datasets, and collaborative notebooks"
+          },
+          {
+            "name": "Google Colab",
+            "description": "Free GPU-enabled Jupyter notebooks in the cloud"
+          },
+          {
+            "name": "Papers with Code",
+            "description": "ML papers with implementation code and benchmarks"
+          },
+          {
+            "name": "Hugging Face Hub",
+            "description": "Repository of models, datasets, and ML applications"
+          },
+          {
+            "name": "GitHub",
+            "description": "Explore open-source ML projects and contribute"
+          }
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Essential Skills",
+    "subtitle": "Master these competencies to excel as an AI Engineer",
+    "technical": {
+      "title": "Technical Skills",
+      "items": [
+        {
+          "category": "Programming",
+          "skills": [
+            "Python (Advanced): NumPy, Pandas, scikit-learn",
+            "C++ for performance-critical code",
+            "SQL for data manipulation and queries",
+            "Shell scripting for automation",
+            "Git for version control and collaboration"
+          ]
+        },
+        {
+          "category": "Mathematics",
+          "skills": [
+            "Linear Algebra: Matrix operations, decompositions",
+            "Calculus: Optimization, gradients, chain rule",
+            "Probability & Statistics: Distributions, inference",
+            "Information Theory: Entropy, KL divergence",
+            "Optimization Theory: Convex optimization, gradient descent"
+          ]
+        },
+        {
+          "category": "Machine Learning",
+          "skills": [
+            "Supervised & Unsupervised Learning algorithms",
+            "Deep Learning: CNNs, RNNs, Transformers",
+            "Model evaluation and validation techniques",
+            "Feature engineering and selection",
+            "Hyperparameter tuning and AutoML"
+          ]
+        },
+        {
+          "category": "Engineering",
+          "skills": [
+            "Software design patterns and architecture",
+            "API design and development (REST, gRPC)",
+            "Database design and optimization",
+            "Distributed systems and scalability",
+            "Testing: Unit, integration, ML-specific tests"
+          ]
+        },
+        {
+          "category": "DevOps & MLOps",
+          "skills": [
+            "Docker containerization and orchestration",
+            "Kubernetes for production deployments",
+            "CI/CD pipelines for ML models",
+            "Cloud platforms: AWS, GCP, Azure",
+            "Monitoring, logging, and observability"
+          ]
+        }
+      ]
+    },
+    "soft": {
+      "title": "Professional Skills",
+      "items": [
+        {
+          "skill": "Problem Solving",
+          "description": "Break down complex problems and design effective AI solutions"
+        },
+        {
+          "skill": "Communication",
+          "description": "Explain technical concepts to non-technical stakeholders clearly"
+        },
+        {
+          "skill": "Research",
+          "description": "Read and implement ideas from research papers and documentation"
+        },
+        {
+          "skill": "Collaboration",
+          "description": "Work effectively with cross-functional teams and contribute to open source"
+        },
+        {
+          "skill": "Continuous Learning",
+          "description": "Stay updated with rapidly evolving AI technologies and best practices"
+        },
+        {
+          "skill": "Project Management",
+          "description": "Plan, execute, and deliver ML projects on time and within scope"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Hands-On Projects",
+    "subtitle": "Build your portfolio with these practical projects",
+    "beginner": {
+      "title": "Beginner Projects",
+      "items": [
+        {
+          "name": "Iris Flower Classification",
+          "description": "Build a classifier to identify iris species using classical ML algorithms",
+          "skills": ["Scikit-learn", "Data preprocessing", "Model evaluation"],
+          "duration": "1-2 days"
+        },
+        {
+          "name": "House Price Prediction",
+          "description": "Predict house prices using regression techniques and feature engineering",
+          "skills": ["Linear regression", "Feature engineering", "Cross-validation"],
+          "duration": "3-5 days"
+        },
+        {
+          "name": "Sentiment Analysis",
+          "description": "Classify movie reviews as positive or negative using NLP",
+          "skills": ["Text preprocessing", "TF-IDF", "Logistic regression"],
+          "duration": "3-5 days"
+        },
+        {
+          "name": "MNIST Digit Recognition",
+          "description": "Build a neural network to recognize handwritten digits",
+          "skills": ["Neural networks", "TensorFlow/PyTorch", "Image data"],
+          "duration": "5-7 days"
+        }
+      ]
+    },
+    "intermediate": {
+      "title": "Intermediate Projects",
+      "items": [
+        {
+          "name": "Image Classification with CNNs",
+          "description": "Classify images from CIFAR-10 or ImageNet using convolutional neural networks",
+          "skills": ["CNNs", "Transfer learning", "Data augmentation"],
+          "duration": "1-2 weeks"
+        },
+        {
+          "name": "Text Generation with RNNs",
+          "description": "Generate text using LSTM or GRU networks trained on books or articles",
+          "skills": ["RNNs", "LSTM/GRU", "Sequence modeling"],
+          "duration": "1-2 weeks"
+        },
+        {
+          "name": "Object Detection System",
+          "description": "Detect and localize objects in images using YOLO or Faster R-CNN",
+          "skills": ["Object detection", "Computer vision", "Real-time processing"],
+          "duration": "2-3 weeks"
+        },
+        {
+          "name": "Recommendation Engine",
+          "description": "Build a movie or product recommendation system",
+          "skills": ["Collaborative filtering", "Matrix factorization", "Neural networks"],
+          "duration": "2-3 weeks"
+        },
+        {
+          "name": "Chatbot with NLP",
+          "description": "Create an intelligent chatbot using transformers or BERT",
+          "skills": ["NLP", "Transformers", "Intent classification"],
+          "duration": "2-4 weeks"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Advanced Projects",
+      "items": [
+        {
+          "name": "Question Answering System",
+          "description": "Build a QA system using BERT or other transformer models with retrieval",
+          "skills": ["Transformers", "RAG", "Vector databases", "Fine-tuning"],
+          "duration": "3-4 weeks"
+        },
+        {
+          "name": "Image Generation with GANs",
+          "description": "Generate realistic images using Generative Adversarial Networks",
+          "skills": ["GANs", "Deep learning", "Image synthesis"],
+          "duration": "3-4 weeks"
+        },
+        {
+          "name": "Speech Recognition System",
+          "description": "Build an ASR system that converts speech to text",
+          "skills": ["Audio processing", "RNNs/Transformers", "CTC loss"],
+          "duration": "4-6 weeks"
+        },
+        {
+          "name": "Autonomous Agent with RL",
+          "description": "Train an agent to play games or control robots using reinforcement learning",
+          "skills": ["Reinforcement learning", "Policy gradients", "OpenAI Gym"],
+          "duration": "4-6 weeks"
+        },
+        {
+          "name": "Full-Stack ML Application",
+          "description": "Build and deploy an end-to-end ML application with web interface",
+          "skills": ["MLOps", "API development", "Docker", "Cloud deployment"],
+          "duration": "6-8 weeks"
+        },
+        {
+          "name": "Research Paper Implementation",
+          "description": "Implement a recent AI research paper and reproduce results",
+          "skills": ["Research", "PyTorch/TensorFlow", "Experimentation"],
+          "duration": "6-12 weeks"
+        }
+      ]
+    }
+  },
+  "tips": {
+    "title": "Success Tips",
+    "subtitle": "Advice from experienced AI Engineers",
+    "items": [
+      {
+        "title": "Build Projects, Not Just Tutorials",
+        "description": "Don't just follow tutorials. Build your own projects to truly understand concepts and showcase your skills."
+      },
+      {
+        "title": "Read Research Papers",
+        "description": "Stay current by reading papers from arXiv, conferences (NeurIPS, ICML, CVPR). Start with recent survey papers."
+      },
+      {
+        "title": "Contribute to Open Source",
+        "description": "Contribute to ML frameworks and projects. It's great for learning and building your professional network."
+      },
+      {
+        "title": "Master the Fundamentals",
+        "description": "Don't skip mathematics and classical ML. They're crucial for understanding why things work and debugging."
+      },
+      {
+        "title": "Practice on Real Data",
+        "description": "Work with messy, real-world datasets. Learn to clean data, handle missing values, and deal with imbalances."
+      },
+      {
+        "title": "Learn to Deploy",
+        "description": "Models are useless if they can't be deployed. Learn Docker, APIs, cloud platforms, and MLOps practices."
+      },
+      {
+        "title": "Join the Community",
+        "description": "Engage with the AI community through Twitter, Discord, Reddit, and local meetups. Learn from others' experiences."
+      },
+      {
+        "title": "Document Your Work",
+        "description": "Write blog posts, create tutorials, share your projects. Teaching others reinforces your own understanding."
+      },
+      {
+        "title": "Experiment and Iterate",
+        "description": "Try different approaches, compare results, and learn from failures. Keep an experiment log."
+      },
+      {
+        "title": "Stay Humble and Curious",
+        "description": "AI is vast and evolving. Embrace continuous learning and don't be afraid to say 'I don't know yet'."
+      }
+    ]
+  },
+  "coffee": {
+    "title": "Support This Project",
+    "subtitle": "If this learning path helped you on your AI engineering journey",
+    "description": "Creating and maintaining comprehensive educational resources takes time and effort. If you found this guide valuable, consider buying me a coffee to support the creation of more free learning materials for aspiring AI engineers.",
+    "benefits": {
+      "title": "Your support helps:",
+      "items": [
+        "Keep this resource free and accessible to everyone",
+        "Fund the creation of new tutorials and guides",
+        "Maintain and update content with latest AI trends",
+        "Support the open-source AI education community"
+      ]
+    },
+    "button": "Buy Me a Coffee ☕",
+    "thanks": "Thank you for your support!",
+    "share": "Share this resource with others who might find it helpful"
+  },
+  "footer": {
+    "description": "A comprehensive guide to becoming an AI Engineer",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with",
+    "for": "for aspiring AI Engineers worldwide"
+  }
+}

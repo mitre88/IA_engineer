@@ -1,0 +1,747 @@
+{
+  "nav": {
+    "home": "首页",
+    "roadmap": "学习路线",
+    "resources": "资源",
+    "skills": "技能",
+    "projects": "项目",
+    "coffee": "请我喝咖啡"
+  },
+  "hero": {
+    "title": "成为",
+    "titleHighlight": "AI工程师",
+    "subtitle": "全面的人工智能工程学习指南",
+    "description": "从基础到高级应用,学习构建尖端AI系统所需的一切",
+    "cta": "开始学习",
+    "stats": {
+      "hours": "800+ 小时",
+      "hoursDesc": "学习内容",
+      "resources": "500+ 资源",
+      "resourcesDesc": "精选材料",
+      "projects": "50+ 项目",
+      "projectsDesc": "实践练习"
+    }
+  },
+  "introduction": {
+    "title": "什么是AI工程师?",
+    "description": "AI工程师是设计、开发和部署人工智能系统的专业人员。他们架起数据科学和软件工程之间的桥梁,创建解决实际问题的实用AI解决方案。",
+    "responsibilities": "主要职责",
+    "responsibilityList": [
+      "设计和开发机器学习模型",
+      "构建可扩展的AI系统和基础设施",
+      "实现自然语言处理解决方案",
+      "创建计算机视觉应用",
+      "在生产环境中部署和维护AI模型",
+      "优化模型性能和效率",
+      "与跨职能团队协作",
+      "跟进最新的AI研究和技术"
+    ],
+    "whyChoose": "为什么成为AI工程师?",
+    "reasons": [
+      {
+        "title": "高需求",
+        "description": "AI工程师是全球最受欢迎的专业人员之一,薪资从$120,000到$300,000+"
+      },
+      {
+        "title": "创新",
+        "description": "从事正在改变各行各业的尖端技术工作,从医疗保健到金融再到娱乐"
+      },
+      {
+        "title": "影响力",
+        "description": "构建能够积极影响数百万人生活并解决关键全球挑战的解决方案"
+      },
+      {
+        "title": "成长",
+        "description": "在快速发展的领域持续学习,拥有无限的职业发展机会"
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "学习路线图",
+    "subtitle": "遵循这个全面的路径来掌握AI工程",
+    "phases": {
+      "phase1": {
+        "title": "第一阶段:基础",
+        "duration": "3-4个月",
+        "description": "在数学、编程和计算机科学基础方面建立坚实的基础",
+        "topics": [
+          {
+            "name": "数学",
+            "items": [
+              "线性代数:向量、矩阵、特征值、特征向量",
+              "微积分:导数、梯度、链式法则、优化",
+              "概率与统计:分布、贝叶斯定理、假设检验",
+              "离散数学:图论、组合数学、逻辑"
+            ]
+          },
+          {
+            "name": "编程",
+            "items": [
+              "Python:语法、数据结构、面向对象编程、函数式编程",
+              "NumPy:数组操作、广播、线性代数",
+              "Pandas:数据操作、清理、分析",
+              "数据可视化:Matplotlib、Seaborn、Plotly"
+            ]
+          },
+          {
+            "name": "计算机科学基础",
+            "items": [
+              "算法:排序、搜索、动态规划",
+              "数据结构:树、图、哈希表、堆",
+              "复杂度分析:Big O表示法、时间/空间复杂度",
+              "软件工程:版本控制(Git)、测试、调试"
+            ]
+          }
+        ]
+      },
+      "phase2": {
+        "title": "第二阶段:机器学习基础",
+        "duration": "4-5个月",
+        "description": "掌握机器学习和统计建模的基础知识",
+        "topics": [
+          {
+            "name": "监督学习",
+            "items": [
+              "线性回归:简单、多元、多项式回归",
+              "逻辑回归:二分类和多分类",
+              "决策树:CART、剪枝、集成方法",
+              "随机森林:Bagging、特征重要性",
+              "支持向量机:核函数、边际优化",
+              "k-最近邻:距离度量、维度诅咒"
+            ]
+          },
+          {
+            "name": "无监督学习",
+            "items": [
+              "K-Means聚类:基于质心的聚类、肘部法则",
+              "层次聚类:树状图、链接方法",
+              "DBSCAN:基于密度的聚类、异常值检测",
+              "降维:PCA、t-SNE、UMAP",
+              "关联规则:Apriori、FP-Growth算法"
+            ]
+          },
+          {
+            "name": "模型评估",
+            "items": [
+              "指标:准确率、精确率、召回率、F1分数、ROC-AUC",
+              "交叉验证:k折、分层、时间序列分割",
+              "偏差-方差权衡:欠拟合、过拟合、正则化",
+              "超参数调优:网格搜索、随机搜索、贝叶斯优化"
+            ]
+          }
+        ]
+      },
+      "phase3": {
+        "title": "第三阶段:深度学习",
+        "duration": "5-6个月",
+        "description": "深入研究神经网络和现代深度学习架构",
+        "topics": [
+          {
+            "name": "神经网络基础",
+            "items": [
+              "感知机和多层感知机",
+              "激活函数:ReLU、Sigmoid、Tanh、Swish",
+              "反向传播:梯度下降、链式法则",
+              "优化:SGD、Adam、RMSprop、学习率调度",
+              "正则化:Dropout、批量归一化、权重衰减",
+              "初始化:Xavier、He、迁移学习"
+            ]
+          },
+          {
+            "name": "卷积神经网络",
+            "items": [
+              "CNN架构:卷积、池化、步长、填充",
+              "经典模型:LeNet、AlexNet、VGG、ResNet、Inception",
+              "现代架构:EfficientNet、Vision Transformers",
+              "迁移学习:特征提取、微调",
+              "目标检测:YOLO、R-CNN、SSD、RetinaNet",
+              "图像分割:U-Net、Mask R-CNN、DeepLab"
+            ]
+          },
+          {
+            "name": "循环神经网络",
+            "items": [
+              "RNN基础:序列处理、隐藏状态",
+              "LSTM和GRU:门控、记忆单元、梯度消失",
+              "双向RNN:前向和后向处理",
+              "序列到序列:编码器-解码器、注意力机制",
+              "时间序列预测:单变量、多变量预测"
+            ]
+          },
+          {
+            "name": "Transformers和注意力机制",
+            "items": [
+              "自注意力机制:Query、Key、Value",
+              "多头注意力:并行注意力层",
+              "位置编码:绝对、相对位置",
+              "Transformer架构:编码器、解码器堆栈",
+              "BERT:预训练、微调、掩码语言建模",
+              "GPT:自回归生成、提示工程",
+              "Vision Transformers:补丁嵌入、ViT、DEIT"
+            ]
+          }
+        ]
+      },
+      "phase4": {
+        "title": "第四阶段:专业AI领域",
+        "duration": "4-5个月",
+        "description": "探索AI的专业领域,包括NLP、计算机视觉等",
+        "topics": [
+          {
+            "name": "自然语言处理",
+            "items": [
+              "文本预处理:分词、词形还原、停用词",
+              "词嵌入:Word2Vec、GloVe、FastText",
+              "上下文嵌入:ELMo、BERT、GPT嵌入",
+              "文本分类:情感分析、主题建模",
+              "命名实体识别:CRF、BiLSTM-CRF、基于Transformer",
+              "机器翻译:Seq2seq、注意力、transformer模型",
+              "问答系统:抽取式、生成式、基于检索",
+              "文本生成:GPT、微调、提示工程",
+              "大型语言模型:GPT-4、Claude、LLaMA、部署"
+            ]
+          },
+          {
+            "name": "计算机视觉",
+            "items": [
+              "图像处理:滤波、边缘检测、形态学",
+              "特征提取:SIFT、SURF、HOG、ORB",
+              "图像分类:CNN、迁移学习、数据增强",
+              "目标检测:两阶段(R-CNN)与单阶段(YOLO)",
+              "语义分割:FCN、U-Net、DeepLab、Mask R-CNN",
+              "人脸识别:FaceNet、ArcFace、验证与识别",
+              "姿态估计:OpenPose、MediaPipe、2D和3D姿态",
+              "视频分析:动作识别、跟踪、时间建模",
+              "生成模型:GAN、VAE、扩散模型、Stable Diffusion"
+            ]
+          },
+          {
+            "name": "强化学习",
+            "items": [
+              "RL基础:智能体、环境、奖励、策略",
+              "马尔可夫决策过程:状态、动作、转换、奖励",
+              "基于价值的方法:Q-Learning、DQN、Double DQN",
+              "基于策略的方法:策略梯度、REINFORCE",
+              "Actor-Critic:A2C、A3C、优势函数",
+              "高级RL:PPO、TRPO、SAC、TD3",
+              "多智能体RL:合作、竞争、通信",
+              "应用:游戏AI、机器人、资源优化"
+            ]
+          }
+        ]
+      },
+      "phase5": {
+        "title": "第五阶段:MLOps与生产",
+        "duration": "3-4个月",
+        "description": "学习在生产环境中部署、监控和维护AI系统",
+        "topics": [
+          {
+            "name": "模型部署",
+            "items": [
+              "模型序列化:Pickle、joblib、ONNX、TensorFlow SavedModel",
+              "API开发:FastAPI、Flask、REST、GraphQL",
+              "容器化:Docker、Docker Compose、多阶段构建",
+              "编排:Kubernetes、部署、服务、ingress",
+              "无服务器:AWS Lambda、Google Cloud Functions、边缘部署",
+              "模型服务:TensorFlow Serving、TorchServe、Triton"
+            ]
+          },
+          {
+            "name": "MLOps实践",
+            "items": [
+              "版本控制:Git、DVC(数据版本控制)、模型版本控制",
+              "实验跟踪:MLflow、Weights & Biases、Neptune",
+              "管道自动化:Airflow、Kubeflow、MLflow Pipelines",
+              "ML的CI/CD:GitHub Actions、Jenkins、自动化测试",
+              "模型注册:集中式模型管理、元数据跟踪",
+              "特征存储:Feast、Tecton、特征工程管道"
+            ]
+          },
+          {
+            "name": "监控与维护",
+            "items": [
+              "模型监控:性能指标、数据漂移、概念漂移",
+              "日志记录:结构化日志、日志聚合、分析",
+              "告警:基于阈值、异常检测、PagerDuty",
+              "A/B测试:实验、统计显著性",
+              "模型重训练:定时、触发、在线学习",
+              "性能优化:量化、剪枝、蒸馏"
+            ]
+          },
+          {
+            "name": "云平台",
+            "items": [
+              "AWS:SageMaker、EC2、S3、Lambda、ECS、EKS",
+              "Google Cloud:Vertex AI、Compute Engine、Cloud Storage、GKE",
+              "Azure:Machine Learning、VMs、Blob Storage、AKS",
+              "基础设施即代码:Terraform、CloudFormation、Pulumi"
+            ]
+          }
+        ]
+      },
+      "phase6": {
+        "title": "第六阶段:高级主题",
+        "duration": "持续进行",
+        "description": "跟上前沿AI研究和新兴技术",
+        "topics": [
+          {
+            "name": "高级架构",
+            "items": [
+              "神经架构搜索:AutoML、DARTS、EfficientNet",
+              "图神经网络:GCN、GAT、GraphSAGE",
+              "元学习:少样本学习、MAML、原型网络",
+              "自监督学习:对比学习、SimCLR、MoCo",
+              "多模态学习:CLIP、DALL-E、Flamingo、统一模型"
+            ]
+          },
+          {
+            "name": "生成式AI",
+            "items": [
+              "生成对抗网络:StyleGAN、CycleGAN、Pix2Pix",
+              "变分自编码器:VAE、β-VAE、VQ-VAE",
+              "扩散模型:DDPM、DDIM、潜在扩散、Stable Diffusion",
+              "文本到图像:DALL-E 2、Midjourney、Stable Diffusion",
+              "大型语言模型:GPT-4、Claude、LLaMA、提示工程",
+              "检索增强生成:RAG、向量数据库、嵌入"
+            ]
+          },
+          {
+            "name": "AI伦理与安全",
+            "items": [
+              "公平性:偏见检测、缓解策略、公平ML",
+              "可解释性:LIME、SHAP、注意力可视化、显著图",
+              "隐私:差分隐私、联邦学习、安全计算",
+              "鲁棒性:对抗样本、防御机制",
+              "AI对齐:价值对齐、安全约束、RLHF",
+              "负责任的AI:道德准则、社会影响评估"
+            ]
+          },
+          {
+            "name": "专业应用",
+            "items": [
+              "医疗AI:医学影像、诊断、药物发现",
+              "金融AI:算法交易、欺诈检测、风险评估",
+              "自主系统:自动驾驶汽车、机器人、无人机导航",
+              "推荐系统:协同过滤、基于内容、混合",
+              "语音处理:ASR、TTS、语音克隆、情感识别",
+              "时间序列:预测、异常检测、因果推断"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "title": "基本资源",
+    "subtitle": "精选学习材料加速您的学习之旅",
+    "categories": {
+      "courses": {
+        "title": "在线课程",
+        "items": [
+          {
+            "name": "Deep Learning Specialization",
+            "provider": "Coursera (Andrew Ng)",
+            "description": "全面的深度学习课程,涵盖神经网络、CNN、RNN等",
+            "level": "初级到中级"
+          },
+          {
+            "name": "Fast.ai Practical Deep Learning",
+            "provider": "fast.ai",
+            "description": "自顶向下学习深度学习与实际项目",
+            "level": "初级到高级"
+          },
+          {
+            "name": "CS229: Machine Learning",
+            "provider": "Stanford University",
+            "description": "研究生级别的机器学习理论和应用课程",
+            "level": "中级到高级"
+          },
+          {
+            "name": "CS231n: Convolutional Neural Networks",
+            "provider": "Stanford University",
+            "description": "深入研究计算机视觉和CNN",
+            "level": "中级到高级"
+          },
+          {
+            "name": "CS224n: Natural Language Processing",
+            "provider": "Stanford University",
+            "description": "全面的NLP课程,专注于深度学习",
+            "level": "中级到高级"
+          },
+          {
+            "name": "Full Stack Deep Learning",
+            "provider": "UC Berkeley",
+            "description": "学习构建和部署生产就绪的ML系统",
+            "level": "中级到高级"
+          }
+        ]
+      },
+      "books": {
+        "title": "必读书籍",
+        "items": [
+          {
+            "name": "Deep Learning",
+            "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+            "description": "深度学习理论和实践的权威教科书"
+          },
+          {
+            "name": "Hands-On Machine Learning",
+            "author": "Aurélien Géron",
+            "description": "使用Scikit-Learn、Keras和TensorFlow的实用指南"
+          },
+          {
+            "name": "Pattern Recognition and Machine Learning",
+            "author": "Christopher Bishop",
+            "description": "ML算法和理论的全面讲解"
+          },
+          {
+            "name": "The Hundred-Page Machine Learning Book",
+            "author": "Andriy Burkov",
+            "description": "ML概念和技术的简明概述"
+          },
+          {
+            "name": "Designing Machine Learning Systems",
+            "author": "Chip Huyen",
+            "description": "生产ML系统设计和最佳实践"
+          },
+          {
+            "name": "Speech and Language Processing",
+            "author": "Dan Jurafsky, James H. Martin",
+            "description": "全面的NLP教科书,包含现代深度学习方法"
+          }
+        ]
+      },
+      "frameworks": {
+        "title": "框架和工具",
+        "items": [
+          {
+            "name": "TensorFlow / Keras",
+            "description": "Google的端到端ML平台,带有高级Keras API",
+            "use": "生产ML、研究、移动部署"
+          },
+          {
+            "name": "PyTorch",
+            "description": "Facebook的动态深度学习框架",
+            "use": "研究、实验、使用TorchServe的生产"
+          },
+          {
+            "name": "Scikit-Learn",
+            "description": "Python的经典机器学习库",
+            "use": "传统ML、预处理、模型评估"
+          },
+          {
+            "name": "Hugging Face Transformers",
+            "description": "最先进的NLP模型和工具",
+            "use": "NLP任务、预训练模型、微调"
+          },
+          {
+            "name": "LangChain",
+            "description": "构建LLM驱动应用的框架",
+            "use": "LLM应用、代理、RAG系统"
+          },
+          {
+            "name": "OpenCV",
+            "description": "具有ML功能的计算机视觉库",
+            "use": "图像处理、传统CV、视频分析"
+          }
+        ]
+      },
+      "platforms": {
+        "title": "实践平台",
+        "items": [
+          {
+            "name": "Kaggle",
+            "description": "ML竞赛、数据集和协作笔记本"
+          },
+          {
+            "name": "Google Colab",
+            "description": "云端免费的GPU启用的Jupyter笔记本"
+          },
+          {
+            "name": "Papers with Code",
+            "description": "带有实现代码和基准的ML论文"
+          },
+          {
+            "name": "Hugging Face Hub",
+            "description": "模型、数据集和ML应用的存储库"
+          },
+          {
+            "name": "GitHub",
+            "description": "探索开源ML项目并做出贡献"
+          }
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "必备技能",
+    "subtitle": "掌握这些能力以成为优秀的AI工程师",
+    "technical": {
+      "title": "技术技能",
+      "items": [
+        {
+          "category": "编程",
+          "skills": [
+            "Python(高级):NumPy、Pandas、scikit-learn",
+            "C++用于性能关键代码",
+            "SQL用于数据操作和查询",
+            "Shell脚本用于自动化",
+            "Git用于版本控制和协作"
+          ]
+        },
+        {
+          "category": "数学",
+          "skills": [
+            "线性代数:矩阵操作、分解",
+            "微积分:优化、梯度、链式法则",
+            "概率与统计:分布、推断",
+            "信息论:熵、KL散度",
+            "优化理论:凸优化、梯度下降"
+          ]
+        },
+        {
+          "category": "机器学习",
+          "skills": [
+            "监督和无监督学习算法",
+            "深度学习:CNN、RNN、Transformers",
+            "模型评估和验证技术",
+            "特征工程和选择",
+            "超参数调优和AutoML"
+          ]
+        },
+        {
+          "category": "工程",
+          "skills": [
+            "软件设计模式和架构",
+            "API设计和开发(REST、gRPC)",
+            "数据库设计和优化",
+            "分布式系统和可扩展性",
+            "测试:单元、集成、ML特定测试"
+          ]
+        },
+        {
+          "category": "DevOps和MLOps",
+          "skills": [
+            "Docker容器化和编排",
+            "Kubernetes用于生产部署",
+            "ML模型的CI/CD管道",
+            "云平台:AWS、GCP、Azure",
+            "监控、日志和可观察性"
+          ]
+        }
+      ]
+    },
+    "soft": {
+      "title": "专业技能",
+      "items": [
+        {
+          "skill": "问题解决",
+          "description": "分解复杂问题并设计有效的AI解决方案"
+        },
+        {
+          "skill": "沟通",
+          "description": "向非技术利益相关者清楚地解释技术概念"
+        },
+        {
+          "skill": "研究",
+          "description": "阅读并实现研究论文和文档中的想法"
+        },
+        {
+          "skill": "协作",
+          "description": "与跨职能团队有效合作并为开源做出贡献"
+        },
+        {
+          "skill": "持续学习",
+          "description": "跟上快速发展的AI技术和最佳实践"
+        },
+        {
+          "skill": "项目管理",
+          "description": "按时在范围内计划、执行和交付ML项目"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "实践项目",
+    "subtitle": "通过这些实用项目构建您的作品集",
+    "beginner": {
+      "title": "初级项目",
+      "items": [
+        {
+          "name": "鸢尾花分类",
+          "description": "使用经典ML算法构建分类器来识别鸢尾花种类",
+          "skills": ["Scikit-learn", "数据预处理", "模型评估"],
+          "duration": "1-2天"
+        },
+        {
+          "name": "房价预测",
+          "description": "使用回归技术和特征工程预测房价",
+          "skills": ["线性回归", "特征工程", "交叉验证"],
+          "duration": "3-5天"
+        },
+        {
+          "name": "情感分析",
+          "description": "使用NLP将电影评论分类为正面或负面",
+          "skills": ["文本预处理", "TF-IDF", "逻辑回归"],
+          "duration": "3-5天"
+        },
+        {
+          "name": "MNIST数字识别",
+          "description": "构建神经网络来识别手写数字",
+          "skills": ["神经网络", "TensorFlow/PyTorch", "图像数据"],
+          "duration": "5-7天"
+        }
+      ]
+    },
+    "intermediate": {
+      "title": "中级项目",
+      "items": [
+        {
+          "name": "使用CNN进行图像分类",
+          "description": "使用卷积神经网络对CIFAR-10或ImageNet的图像进行分类",
+          "skills": ["CNN", "迁移学习", "数据增强"],
+          "duration": "1-2周"
+        },
+        {
+          "name": "使用RNN生成文本",
+          "description": "使用在书籍或文章上训练的LSTM或GRU网络生成文本",
+          "skills": ["RNN", "LSTM/GRU", "序列建模"],
+          "duration": "1-2周"
+        },
+        {
+          "name": "目标检测系统",
+          "description": "使用YOLO或Faster R-CNN检测和定位图像中的对象",
+          "skills": ["目标检测", "计算机视觉", "实时处理"],
+          "duration": "2-3周"
+        },
+        {
+          "name": "推荐引擎",
+          "description": "构建电影或产品推荐系统",
+          "skills": ["协同过滤", "矩阵分解", "神经网络"],
+          "duration": "2-3周"
+        },
+        {
+          "name": "NLP聊天机器人",
+          "description": "使用transformers或BERT创建智能聊天机器人",
+          "skills": ["NLP", "Transformers", "意图分类"],
+          "duration": "2-4周"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "高级项目",
+      "items": [
+        {
+          "name": "问答系统",
+          "description": "使用BERT或其他transformer模型构建带检索的QA系统",
+          "skills": ["Transformers", "RAG", "向量数据库", "微调"],
+          "duration": "3-4周"
+        },
+        {
+          "name": "使用GAN生成图像",
+          "description": "使用生成对抗网络生成逼真的图像",
+          "skills": ["GAN", "深度学习", "图像合成"],
+          "duration": "3-4周"
+        },
+        {
+          "name": "语音识别系统",
+          "description": "构建将语音转换为文本的ASR系统",
+          "skills": ["音频处理", "RNN/Transformers", "CTC loss"],
+          "duration": "4-6周"
+        },
+        {
+          "name": "使用RL的自主代理",
+          "description": "使用强化学习训练代理玩游戏或控制机器人",
+          "skills": ["强化学习", "策略梯度", "OpenAI Gym"],
+          "duration": "4-6周"
+        },
+        {
+          "name": "全栈ML应用",
+          "description": "构建和部署带有Web界面的端到端ML应用",
+          "skills": ["MLOps", "API开发", "Docker", "云部署"],
+          "duration": "6-8周"
+        },
+        {
+          "name": "研究论文实现",
+          "description": "实现最近的AI研究论文并复现结果",
+          "skills": ["研究", "PyTorch/TensorFlow", "实验"],
+          "duration": "6-12周"
+        }
+      ]
+    }
+  },
+  "tips": {
+    "title": "成功秘诀",
+    "subtitle": "来自经验丰富的AI工程师的建议",
+    "items": [
+      {
+        "title": "构建项目,而不仅仅是教程",
+        "description": "不要只是跟随教程。构建自己的项目以真正理解概念并展示您的技能。"
+      },
+      {
+        "title": "阅读研究论文",
+        "description": "通过阅读arXiv、会议论文(NeurIPS、ICML、CVPR)保持最新。从最近的综述论文开始。"
+      },
+      {
+        "title": "为开源做贡献",
+        "description": "为ML框架和项目做贡献。这对学习和建立专业网络非常有益。"
+      },
+      {
+        "title": "掌握基础知识",
+        "description": "不要跳过数学和经典ML。它们对于理解为什么事情有效和调试至关重要。"
+      },
+      {
+        "title": "使用真实数据练习",
+        "description": "使用混乱的真实世界数据集。学习清理数据、处理缺失值和处理不平衡。"
+      },
+      {
+        "title": "学会部署",
+        "description": "如果模型无法部署,它们就毫无用处。学习Docker、API、云平台和MLOps实践。"
+      },
+      {
+        "title": "加入社区",
+        "description": "通过Twitter、Discord、Reddit和本地聚会参与AI社区。从他人的经验中学习。"
+      },
+      {
+        "title": "记录您的工作",
+        "description": "撰写博客文章,创建教程,分享您的项目。教导他人可以加强您自己的理解。"
+      },
+      {
+        "title": "实验和迭代",
+        "description": "尝试不同的方法,比较结果,从失败中学习。保持实验日志。"
+      },
+      {
+        "title": "保持谦逊和好奇",
+        "description": "AI是庞大且不断发展的。拥抱持续学习,不要害怕说'我还不知道'。"
+      }
+    ]
+  },
+  "coffee": {
+    "title": "支持本项目",
+    "subtitle": "如果这个学习路径帮助了您的AI工程之旅",
+    "description": "创建和维护全面的教育资源需要时间和精力。如果您觉得本指南有价值,请考虑请我喝杯咖啡,以支持为有抱负的AI工程师创建更多免费学习材料。",
+    "benefits": {
+      "title": "您的支持有助于:",
+      "items": [
+        "保持此资源免费并对所有人开放",
+        "资助新教程和指南的创建",
+        "使用最新AI趋势维护和更新内容",
+        "支持开源AI教育社区"
+      ]
+    },
+    "button": "请我喝咖啡 ☕",
+    "thanks": "感谢您的支持!",
+    "share": "与可能觉得有帮助的其他人分享此资源"
+  },
+  "footer": {
+    "description": "成为AI工程师的全面指南",
+    "quickLinks": "快速链接",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "connect": "联系",
+    "rights": "保留所有权利。",
+    "madeWith": "用",
+    "for": "为全球有抱负的AI工程师制作"
+  }
+}
