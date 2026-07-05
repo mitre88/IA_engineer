@@ -8,8 +8,12 @@ import Projects from '@/components/Projects';
 import Tips from '@/components/Tips';
 import Coffee from '@/components/Coffee';
 import Footer from '@/components/Footer';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-export default function Home() {
+export default function Home({ params: { locale } }: { params: { locale: string } }) {
+  // Enable static rendering for next-intl on this page
+  unstable_setRequestLocale(locale);
+
   return (
     <main className="min-h-screen">
       <Navigation />

@@ -1,4 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n';
 
@@ -13,6 +14,9 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  // Enable static rendering for next-intl (avoids headers() → dynamic prerender error on /zh)
+  unstable_setRequestLocale(locale);
+
   let messages;
   try {
     messages = (await import(`@/messages/${locale}.json`)).default;
